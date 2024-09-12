@@ -1,0 +1,25 @@
+{
+  "name": "node-js-practica",
+  "version": "1.0.0",
+  "description": "Prueba de node.js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "author": "Tyrone",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^11.2.1",
+    "discord.js": "^14.15.3",
+    "express": "^5.0.0",
+    "express-session": "^1.18.0",
+    "megadb": "^3.4.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.6.1",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4",
+    "pug": "^3.0.3",
+    "quick.db": "^9.1.7"
+  }
+}

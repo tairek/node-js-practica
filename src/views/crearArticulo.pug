@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/css/crearArticulo.css")
+        title Crear Articulo
+    body
+        h1 Crea tu propio articulo!
+        div#contenedor 
+            form(action="post")#form
+                input(type="text", name="titulo1", value="Titulo").titulo#titulo1
+                //- textarea(name="parrafo1").parrafo#parrafo1 Parrafo
+            div#addButtons
+                p#addTitulo.addButtons Añadir titulo
+                p#addParrafo.addButtons Añadir parrafo
+                p#addImagen.addButtons Añadir imagen
+        script(src="/javascript/crearArticulo.js") 
